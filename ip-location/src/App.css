@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #2d587f !important;
+  color: white !important;
+}
+
+.leaflet-container {
+  width: 50vw;
+  height: 50vh;
+}
+
+.title {
+    font-size: 20px !important;
+}
+
+.loading {
+  text-align: center;
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+.cardClass {
+  background-color: #3355ff !important;
+  color: white !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+.mapContainer {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+img {
+  width: 30px;
+  height: auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
